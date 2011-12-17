@@ -49,6 +49,17 @@
       <artifactId>hbase-smoke</artifactId>
       <version>${hbase-smoke.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.hbase</groupId>
+      <artifactId>hbase</artifactId>
+      <version>0.92.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.hadoop</groupId>
+      <artifactId>hadoop-core</artifactId>
+      <version>0.20.2-cdh3u3-SNAPSHOT</version>
+    </dependency>
+
   </dependencies>
 
   <build>
